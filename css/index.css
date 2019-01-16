@@ -176,7 +176,7 @@ html {
 .container strong {
   font-weight: bold;
 }
-.container .pretty-good {
+.container span {
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -194,13 +194,13 @@ html {
 }
 .container .top {
   max-width: 1000px;
-  border-left: 0.1rem solid black;
-  border-bottom: 0.1rem solid black;
   display: flex;
   justify-content: flex-start;
   padding-top: 20px;
   padding-left: 20px;
   padding-bottom: 20px;
+  border-left: 0.1rem solid black;
+  border-bottom: 0.1rem solid black;
 }
 .container .middle {
   max-width: 1000px;
@@ -220,8 +220,8 @@ html {
 }
 .container .bot {
   text-align: center;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
+  border-left: 0.1rem solid black;
+  border-bottom: 0.1rem solid black;
   padding-top: 20px;
   padding-left: 20px;
   padding-bottom: 20px;
