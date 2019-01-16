@@ -200,6 +200,18 @@ html {
   border-left: 0.1rem solid black;
   border-bottom: 0.1rem solid black;
 }
+@media (max-width: 500px) {
+  .container .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.container .top .contact {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
 .container .middle {
   border-right: 0.1rem solid black;
   border-bottom: 0.1rem solid black;
