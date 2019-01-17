@@ -112,8 +112,13 @@ html {
 
 	header {
 		.center();
+		border-right: .1rem solid black;
 		border-bottom: .1rem solid black;
 		margin: auto;
+
+		@media (max-width: 500px){
+			border-right: none;
+		}
 	  }
 	  
 	.head {

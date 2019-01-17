@@ -161,8 +161,14 @@ html {
 .container header {
   display: flex;
   justify-content: center;
+  border-right: 0.1rem solid black;
   border-bottom: 0.1rem solid black;
   margin: auto;
+}
+@media (max-width: 500px) {
+  .container header {
+    border-right: none;
+  }
 }
 .container .head {
   display: flex;
